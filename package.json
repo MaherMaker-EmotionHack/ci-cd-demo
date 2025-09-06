@@ -1,0 +1,25 @@
+{
+  "name": "ci-cd-demo",
+  "version": "1.0.0",
+  "description": "CI/CD from scratch example",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"No tests specified\" && exit 1",
+    "dev": "node app.js"
+  },
+  "keywords": [
+    "ci-cd",
+    "nodejs",
+    "express",
+    "demo"
+  ],
+  "author": "MaherMaker-EmotionHack",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
